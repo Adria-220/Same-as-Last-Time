@@ -1,0 +1,11 @@
+/*
+Theme Name:     Assignment_4
+Description:    
+Author:         adriap
+Template:       coachable
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+header #masthead{
+    background-color: lightblue;
+}
