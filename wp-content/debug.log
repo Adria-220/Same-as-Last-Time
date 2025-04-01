@@ -2,3 +2,13 @@
 [01-Apr-2025 13:44:06 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/Same-as-Last-Time/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
 [01-Apr-2025 13:45:10 UTC] PHP Warning:  Attempt to read property "title" on null in /workspaces/Same-as-Last-Time/.wordpress/wp-includes/class-wp-customize-widgets.php on line 923
 [01-Apr-2025 13:46:19 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/Same-as-Last-Time/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[01-Apr-2025 14:22:08 UTC] PHP Fatal error:  Out of memory (allocated 33554432) (tried to allocate 2097152 bytes) in /workspaces/Same-as-Last-Time/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/product-ajax.php on line 148
+[01-Apr-2025 14:22:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/Same-as-Last-Time/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/Same-as-Last-Time/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/Same-as-Last-Time/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/Same-as-Last-Time/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[01-Apr-2025 14:22:13 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/Same-as-Last-Time/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/product-ajax.php on line 48
+[01-Apr-2025 14:22:13 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 12288 bytes) in /workspaces/Same-as-Last-Time/.wordpress/wp-includes/PHPMailer/PHPMailer.php on line 4237

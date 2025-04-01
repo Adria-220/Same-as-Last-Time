@@ -42,6 +42,36 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/products/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/pool-float/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/picnic-blanket/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/hiking-boots/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/assorted-balls/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/embroidery-floss/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/uncategorized/
         </loc>
     </url>
