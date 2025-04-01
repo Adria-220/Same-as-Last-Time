@@ -6,6 +6,7 @@ Template:       coachable
 
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
-header #masthead{
+header{
     background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
