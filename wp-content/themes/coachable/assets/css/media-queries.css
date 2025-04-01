@@ -1,0 +1,338 @@
+
+
+@media (max-width: 991px) {
+	div#hamburger-menu {
+	    display: block;
+	}
+	nav#site-navigation {
+	    display: none;
+	    margin: 0;
+	}
+	nav#site-navigation.open {
+	    display: block;
+	    margin-top: 10px;
+	}
+	.header-navigation ul {
+	    display: block;
+	    width: 100%;
+	}
+	.header-navigation ul li {
+	    display: block;
+	    width: 100%;
+	}
+	header#masthead .col-md-12 {
+	    display: block;
+	}
+	.header-navigation li a {
+	    padding: 7px 10px;
+	}
+	header#masthead {
+	    padding: 13px 0;
+	}
+	.site-logo {
+	    float: left;
+	}
+	div#hamburger-menu {
+	    position: absolute;
+	    right: 20px;
+	    top: 5px;
+	    z-index: 999;
+	    cursor: pointer;
+	}
+	nav#site-navigation {
+	    float: right;
+	    width: 100%;
+	}
+	nav#site-navigation ul {
+	    width: 100% !important;
+	       float: none !important;
+	}
+	nav#site-navigation li.menu-item-has-children .sub-menu li.menu-item-has-children:hover .sub-menu, nav#site-navigation li.menu-item-has-children .sub-menu li.menu-item-has-children:focus .sub-menu, nav#site-navigation li.menu-item-has-children .sub-menu li.menu-item-has-children:focus-within .sub-menu {
+	    left: 0 !important;
+	   	    position: relative;
+	}
+	nav#site-navigation li.menu-item-has-children .sub-menu li.menu-item-has-children:hover .sub-menu, nav#site-navigation li.menu-item-has-children .sub-menu li.menu-item-has-children:focus .sub-menu, nav#site-navigation li.menu-item-has-children .sub-menu li.menu-item-has-children:focus-within .sub-menu{
+	    left: 0 !important;
+	  	    position: relative;
+	}
+	nav#site-navigation li.menu-item-has-children:hover .sub-menu, nav#site-navigation li.menu-item-has-children:focus .sub-menu, nav#site-navigation li.menu-item-has-children:focus-within .sub-menu{
+	    background: #f7f7f7 !important;
+	    position: relative;
+	}
+	.header-navigation ul li {
+	    border-bottom: 1px solid #eee;
+	}
+	.header-navigation .menu-primary-container {
+	    border: 1px solid #eee;
+	    margin-bottom: 15px;
+	}
+	button.close-menu {
+	    width: 100%;
+	    padding: 8px 10px;
+	}
+	div#hamburger-menu button.open-menu {
+	    padding: 0;
+	    background: none !important;
+	}
+	div#hamburger-menu button:focus span{
+		background-color: #000;
+	}
+	button.close-menu {
+	    display: block;
+	}
+	header.entry-header h1.entry-title {
+    font-size: 30px;
+	}	
+    .h1,h1 {
+	    font-size: 30px
+	}
+
+	.h2,h2 {
+	    font-size: 26px
+	}
+
+	.h3,h3 {
+	    font-size: 24px
+	}
+
+	.h4,h4 {
+	    font-size: 20px
+	}
+
+	.h5,h5 {
+	    font-size: 18px
+	}
+
+	.h6,h6 {
+	    font-size: 16px
+	}
+	.cta-section h2 {
+	    font-size: 32px;
+	}
+
+	.posts-wrap article {
+	    width: calc(50% - 20px);
+	    margin: 10px;
+	}
+	nav#site-navigation .social-icons {
+	    display: block;
+	    padding-left: 0;
+	    margin: 15px 0;
+	}
+	.social-icons.outside {
+	    display: none;
+	}
+	.header-navigation ul li {
+	    border-bottom: 1px solid #eee;
+	    border-left: 1px solid #eee;
+	    border-right: 1px solid #eee;
+	}
+	.header-navigation ul li:first-child {
+	    border-top: 1px solid #eee;
+	}
+	.social-icons.outside {
+	    display: none;
+	}
+	nav#site-navigation .social-icons {
+	    display: block;
+	    padding-left: 10px;
+	    margin: 10px 0;
+	}
+	nav#site-navigation {
+	    border: 1px solid #eee;
+	    margin-top: 15px;
+	}
+	.header3 .social-icons {
+	    display: none;
+	}
+	.header3 .header-search {
+	    display: none;
+	}
+	.header3 .bottom-header-wrap {
+	    border: none;
+	    margin: 0;
+	    padding: 0;
+	}
+	header#masthead.header3 {
+	    padding-bottom: 20px;
+	}
+	.header3 .site-logo {
+	    justify-content: left;
+	}
+
+
+	.section-headings {
+	    margin-bottom: 60px;
+	}
+	.section-spacing {
+	    padding: 100px 0;
+	}
+	.about-section .row {
+	    display: block;
+	}
+  .about-section h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
+	.about-section img {
+	    margin-bottom: 30px;
+	}
+
+	.cta-section h2 {
+	    font-size: 28px;
+	}
+	.banner-section h1{
+		font-size: 50px !important;
+	}
+  .container {
+    width: 100% !important;
+  }
+ .about-section .col-md-5 {
+  margin-top: 30px;
+}
+.about-section.section-spacing a.btn-default {
+  margin-top: 0;
+}
+.section-title h2 {
+  font-size: 38px;
+}
+.testimonial-wrap .test-content {
+  font-size: 20px;
+}
+.testimonial-section {
+  padding: 100px 0;
+}
+.cta-section {
+  padding: 100px 0;
+  text-align: center;
+}
+}
+
+@media (max-width: 767px) {
+	.page-section {
+	    padding: 50px 0;
+	}
+	.prefooter {
+	    padding: 40px 0;
+	}
+
+	.blog-element article.blog-post {
+	    width: 100%;
+	}
+	.blog-element article.blog-post:last-child {
+	    margin-bottom: 0;
+	}
+	header.entry-header h1.entry-title {
+	    font-size: 25px;
+	}
+        .h1,h1 {
+    font-size: 25px
+	}
+
+	.h2,h2 {
+	    font-size: 22px
+	}
+
+	.h3,h3 {
+	    font-size: 20px
+	}
+
+	.h4,h4 {
+	    font-size: 17px
+	}
+
+	.h5,h5 {
+	    font-size: 15px
+	}
+
+	.h6,h6 {
+	    font-size: 13px
+	}
+	  
+	.cta-section h2 {
+	    font-size: 28px;
+	}
+	.cta-section {
+	    padding: 55px 0;
+	}
+	.banner-section {
+	    padding: 65px 0;
+	}
+	.section-spacing {
+	    padding: 70px 0;
+	}
+
+	.site-logo img.custom-logo {
+	    height: 30px;
+	}
+	.posts-wrap article {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+
+
+	.section-headings {
+	    margin-bottom: 30px;
+	}
+.banner-section {
+  height: 600px;
+}
+.callout-wrap {
+width: 100%;
+    margin-bottom: 30px;
+    height: 380px;
+}
+.callout-section .row {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.callout-wrap:last-child{
+	margin-bottom: 0;
+}
+	.about-section h2 {
+	    font-size: 18px;
+	    margin-bottom: 10px;
+	}
+	.cta-section h2 {
+	    font-size: 24px;
+	}
+	header.page-header h1.page-title {
+	    font-size: 25px;
+	}
+	  .banner-section h1 {
+    font-size:35px !important;
+  }
+    .about-section h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+    .section-title h2 {
+    font-size: 30px;
+  }
+    .testimonial-wrap .test-content {
+    font-size: 18px;
+  }
+  article.blog-post h2 {
+  font-size: 20px;
+}
+.callout-section .row {
+  margin-top: -50px;
+}
+.banner-section .row {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.post-wrap-element .post-content h2{
+	font-size: 20px;
+}
+}
+
+
+@media (max-width: 500px) {
+
+}
+
